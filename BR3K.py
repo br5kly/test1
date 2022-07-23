@@ -9,7 +9,7 @@
 
 
 import os
-print("""\033[1; 
+print("""\033[0;33m 
     .--'''''''''--.
      .'      .---.      '.
     /    .-----------.    \
@@ -43,7 +43,7 @@ print("""\033[1;
              | | |
             /| | |\
           .'_| | |_`.
-LGB       `. | | | .'
+BR3K      `. | | | .'
        .    /  |  \    .
       /o`.-'  / \  `-.`o\
      /o  o\ .'   `. /o  o\
@@ -61,18 +61,25 @@ print(" [8]EXIT")
 sxtz =input("choice :")
 if sxtz in ["1", "01"]:
     os.system('pkg upgrade')
+    os.system('python BR3K.py')
 if sxtz in ["2", "02"]:
     os.system('pkg install git')
+    os.system('python BR3K.py')
 if sxtz in ["3", "03"]:
     os.system('pip install rich')
+    os.system('python BR3K.py')
 if sxtz in ["4", "04"]:
     os.system('pip install requests')
+    os.system('python BR3K.py')
 if sxtz in ["5", "05"]:
     os.system('pip install bs4')
+    os.system('python BR3K.py')
 if sxtz in ["6", "06"]:
-    os.system('xdg-open https://www.facebook.com/Zebany.ReD.X/')     
+    os.system('xdg-open https://www.facebook.com/Zebany.ReD.X/')
+    os.system('python BR3K.py')
 if sxtz in ["7", "07"]:
     os.system('xdg-open https://t.me/sxtz0')
+    os.system('python BR3K.py')
 if sxtz in ["8", "08"]:
     exit()   
   
